@@ -1,0 +1,27 @@
+## Build
+bin/
+obj/
+*.dll
+*.exe
+
+## VS
+.vs/
+*.user
+*.suo
+*.userprefs
+
+## Logs
+*.log
+
+## Test results
+TestResults/
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Others
+*.tmp
+*.bak
+*.swp
+*.sln.docstates
