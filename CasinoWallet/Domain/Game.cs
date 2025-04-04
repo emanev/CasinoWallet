@@ -4,33 +4,6 @@ using CasinoWallet.Interfaces;
 
 namespace CasinoWallet.Domain
 {
-    //public class Game : IGame
-    //{
-    //    private readonly Random _random = new();
-
-    //    public decimal Play(decimal betAmount)
-    //    {
-    //        int chance = _random.Next(1, 101);
-
-    //        if (chance <= 50)
-    //        {
-    //            return 0;
-    //        }
-    //        else if (chance <= 90)
-    //        {                
-    //            int randInt = _random.Next(100, 201); // [100, 200]
-    //            decimal multiplier = randInt / 100.0m;
-    //            return Math.Round(betAmount * multiplier, 2);
-    //        }
-    //        else
-    //        {                
-    //            int randInt = _random.Next(201, 1001); // [201, 1000]
-    //            decimal multiplier = randInt / 100.0m;
-    //            return Math.Round(betAmount * multiplier, 2);
-    //        }
-    //    }
-    //}
-
     public class Game : IGame
     {
         private readonly Random _random = new();
